@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/Desktop/fanuc-minimal/external/fwlib/fwlib32.h
+windows.h
+-
+
+/home/pi/Desktop/fanuc-minimal/src/main.c
+stdint.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+sys/time.h
+-
+time.h
+-
+unistd.h
+-
+../external/fwlib/fwlib32.h
+/home/pi/Desktop/fanuc-minimal/external/fwlib/fwlib32.h
+signal.h
+-
+sys/socket.h
+-
+arpa/inet.h
+-
+netinet/in.h
+-
+netdb.h
+-
+curl/curl.h
+-
+
