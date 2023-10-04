@@ -1,0 +1,18 @@
+Step 1: 
+1) Install cmake repository
+sudo apt install cmake
+2) Install curl 
+sudo apt install -y curl
+
+Step 2:
+1) cd to "/home/pi/Desktop/fanuc-minimal/src" in terminal
+2) sudo su
+3) in terminal type "make"
+4) if everything is ok, it will be able to build the cmake program
+
+Step 3: (run the program)
+1) cd to "/home/pi/Desktop/fanuc-minimal/src/bin" in termina;
+2) sudo su
+3) type ./fanuc_example 192.168.1.1 
+**192.168.1.1 >> change to your cnc controller ip address
+

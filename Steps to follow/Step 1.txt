@@ -1,0 +1,40 @@
+Step 1:
+1) Download fanuc-minimal & fanuc-library_combine folder to your device.
+*Should be in zip folder format
+2) Extract it 
+3) Transfer these two folders into the raspberry pi desktop folder.
+
+Step 2:
+*In raspberry pi device
+1) Open the folder "fanuc-library_combine" folder in raspberry pi
+2) open terminal
+3) cd to the folder "fanuc-library_combine"
+4) sudo su
+5) copy the command below and paste into terminal >> to copy all the library files into the /usr/local/lib folder
+sudo cp ./libfwlib32.so.1.0.x /usr/local/lib/libfwlib32.so.1.0.0
+sudo cp ./libfwlib32.so.1.0.x /usr/local/lib/libfwlib32.so.1.0.x
+sudo cp ./fanucconf.dll /usr/local/lib/fanucconf.dll
+sudo cp ./fwlib0DN.dll /usr/local/lib/fwlib0DN.dll
+sudo cp ./Fwlib0i.dll /usr/local/lib/Fwlib0i.dll
+sudo cp ./fwlib32.cs /usr/local/lib/fwlib32.cs
+sudo cp ./Fwlib0iB.dll /usr/local/lib/Fwlib0iB.dll
+sudo cp ./fwlib0iD.dll /usr/local/lib/fwlib0iD.dll
+sudo cp ./Fwlib15i.dll /usr/local/lib/Fwlib15i.dll
+sudo cp ./Fwlib16W.dll /usr/local/lib/Fwlib16W.dll
+sudo cp ./fwlib30i.dll /usr/local/lib/fwlib30i.dll
+sudo cp ./fwlib32.h /usr/local/lib/fwlib32.h
+sudo cp ./Fwlib32.lib /usr/local/lib/Fwlib32.lib
+sudo cp ./Fwlib150.dll /usr/local/lib/Fwlib150.dll
+sudo cp ./Fwlib160.dll /usr/local/lib/Fwlib160.dll
+sudo cp ./fwlibe1.dll /usr/local/lib/fwlibe1.dll
+sudo cp ./fwlibNCG.dll /usr/local/lib/fwlibNCG.dll
+sudo cp ./Fwlibpm.dll /usr/local/lib/Fwlibpm.dll
+sudo cp ./Fwlibpmi.dll /usr/local/lib/Fwlibpmi.dll
+
+Step 3:
+1) open the folder /urs/local/lib 
+2) open terminal
+3) sudo su
+4) cd to the folder /urs/local/lib
+5) copy the command below and paste into the terminal
+ln -s libfwlib32.so.1.0.0 libfwlib32.so

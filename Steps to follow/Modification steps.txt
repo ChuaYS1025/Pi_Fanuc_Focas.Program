@@ -1,0 +1,12 @@
+Modify the source code to suit individual applications
+1) open the folder and go to the directory "/home/pi/Desktop/fanuc-minimal/src"
+2) open the main.c file
+3) inside content is the source code 
+4) can make modification based on your requirements
+5) refer to website "https://www.inventcom.net/fanuc-focas-library/misc"
+6) to read the machine data based on FOCAS function
+
+**
+this program only read the "OUTPUT PARAMETER","CYCLETIME" and "MACHINE STATUS" only
+using rdparam function and statinfo function 
+
