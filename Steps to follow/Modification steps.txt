@@ -5,6 +5,7 @@ Modify the source code to suit individual applications
 4) can make modification based on your requirements
 5) refer to website "https://www.inventcom.net/fanuc-focas-library/misc"
 6) to read the machine data based on FOCAS function
+7) everytime the main.c program is modify, need to make the program by refering to "Step 2.txt" 
 
 **
 this program only read the "OUTPUT PARAMETER","CYCLETIME" and "MACHINE STATUS" only
