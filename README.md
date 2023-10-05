@@ -10,7 +10,10 @@ Currently, this program only collect Fanuc Cnc machine output data parameter and
 Feel free to modify the base code so that it can suit your own applications. 
 
 credit to https://github.com/strangesast/fanuc-minimal-example
+
 references: 
 https://blog.csdn.net/weixin_42415843/article/details/125041909?spm=1001.2101.3001.6650.7&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-7-125041909-blog-84940776.235%5Ev31%5Epc_relevant_default_base3&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-7-125041909-blog-84940776.235%5Ev31%5Epc_relevant_default_base3&utm_relevant_index=8
+
 https://blog.csdn.net/weixin_42415843/article/details/125041909
+
 https://blog.csdn.net/yangxd_ah/article/details/107723136
